@@ -11,7 +11,18 @@
     <header class="header">
         <h1 class="headerTitle">Text</h1>
         <button id="js--menu" class="headerButton">
-            <img src="img/hamburger.webp" alt="">
+            
+            <div class="container">     
+                  <div class="three col">
+                    <div class="hamburger" id="hamburger-1">
+                      <span class="line"></span>
+                      <span class="line"></span>
+                      <span class="line"></span>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- <img src="img/hamburger.webp" alt=""> -->
         </button>
     </header>
     <nav id="js--nav" class="mainNavigation">
@@ -20,13 +31,13 @@
                 <a href="">home</a>
             </li>   
             <li class="mainNavigationItem">
-                <a href="">Collection #1</a>
+                <a href="#collections">Collection</a>
             </li>  
             <li class="mainNavigationItem">
-                <a href="">Collection #2</a>
+                <a href="#info">Info</a>
             </li>  
             <li class="mainNavigationItem">
-                <a href="">Collection #3</a>
+                <a href="#info">Collection #3</a>
             </li>   
         </ul>
     </nav>
@@ -36,7 +47,7 @@
             <img src="img/pexels-markusspiske-965345.jpg" alt="code">
         </figure>
         <section class="collections">
-            <h2 class="collectionsTitle">pictures</h2>
+            <h2 class="collectionsTitle" id="collections">pictures</h2>
             <ul class="collectionsList">
                 <li class="collectionsListItem">
                     <img src="img/pexels-jeshoots-com-147458-442576.jpg" alt="">
@@ -58,7 +69,7 @@
                 </li>
             </ul>
         </section>
-        <section class="info">
+        <section class="info"id="info">
             <div class="block">
 
                 <h2 class="infoTitle">Why</h2>
@@ -84,6 +95,10 @@
 
 
         </section>
+        <footer>
+            <p>Made by coding industries™</p>
+        </footer>
+
     </main>
 
 </body>
